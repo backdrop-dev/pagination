@@ -1,0 +1,36 @@
+{
+	"name": "backdrop-dev/pagination",
+	"description": "Enhanced pagination add-on for the Backdrop framework.",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress"
+	],
+	"authors": [
+		{
+			"name": "Benjamin Lu",
+			"email": "benlumia007@gmail.com",
+			"homepage": "https://luthemes.com",
+			"role": "Developer"
+		}
+	],
+	"homepage": "https://github.com/backdrop-dev/pagination",
+	"support": {
+		"issues": "https://github.com/backdrop-dev/pagination/issues"
+	},
+	"require": {
+		"php": ">=7.4"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"Backdrop\\Pagination\\": "src/"
+		},
+		"files": [
+			"src/functions-helpers.php"
+		]
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
