@@ -301,7 +301,7 @@ class Pagination implements PaginationContract {
      *
      * @return string
      */
-    public function render() {
+    public function render(): void {
 
         $title = $list = $template = '';
 
