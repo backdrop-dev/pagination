@@ -292,7 +292,7 @@ class Pagination implements PaginationContract {
      *
      * @return void
      */
-    public function display() {
+    public function display(): void {
         echo $this->render();
     }
 
