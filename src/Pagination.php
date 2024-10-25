@@ -83,6 +83,13 @@ class Pagination implements PaginationContract {
     protected $dots = false;
 
     /**
+     * Stores the configuration arguments for pagination.
+     *
+     * @var array
+     */
+    protected $args = [];
+
+    /**
      * Create a new pagination object.
      *
      * @param string $context
