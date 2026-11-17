@@ -12,8 +12,8 @@
  * @link      https://github.com/backdrop-dev/pagination
  *
  * @author    Benjamin Lu
- * @copyright 2019, Benjamin Lu
- * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @copyright 2019-2026, Benjamin Lu
+ * @license   https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 namespace Backdrop\Pagination;

@@ -14,7 +14,7 @@
 
 namespace Backdrop\Pagination;
 
-use Backdrop\App;
+use Backdrop\Proxies\App;
 use Backdrop\Pagination\Contracts\Pagination;
 
 if ( ! function_exists( __NAMESPACE__ . '\\pagination' ) ) {
